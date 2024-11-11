@@ -1,0 +1,76 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "username": "Pablo",
+      "email": "Pablo@example.com",
+      "password": "Pabloo123",
+      "isactive": true,
+      "asignaturas": [
+        {
+          "nombre": "Matemáticas",
+          "profesor": "Prof. Gómez"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "username": "Pablox",
+      "email": "Pablo123@gmai",
+      "password": "pablo123",
+      "isactive": true
+    },
+    {
+      "id": 3,
+      "username": "Pblox",
+      "email": "pablo@gmail.com",
+      "password": "Pablo123",
+      "isactive": true,
+      "asignaturas": [
+        {
+          "nombre": "Programación",
+          "profesor": "Prof. Pérez"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "username": "Pablos",
+      "email": "pablo32@gmail.com",
+      "password": "pablo123",
+      "isactive": true,
+      "asignaturas": [
+        {
+          "nombre": "Matemáticas",
+          "profesor": "Prof. Gómez"
+        }
+      ]
+    }
+  ],
+  "justificaciones": [
+    {
+      "id": 1,
+      "imagen": "base64stringDeLaImagen",
+      "asignatura": "Programación",
+      "fecha": "2024-11-21",
+      "descripcion": "jj",
+      "profesor": "Prof. Pérez"
+    },
+    {
+      "id": 2,
+      "imagen": "base64stringDeLaImagen",
+      "asignatura": "Programación",
+      "fecha": "2024-11-09",
+      "descripcion": "n",
+      "profesor": "Prof. Pérez"
+    },
+    {
+      "id": 3,
+      "imagen": "base64stringDeLaImagen",
+      "asignatura": "Programación",
+      "fecha": "2024-11-12",
+      "descripcion": "jjm",
+      "profesor": "Prof. Pérez"
+    }
+  ]
+}
