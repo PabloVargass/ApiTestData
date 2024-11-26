@@ -6,6 +6,7 @@
       "email": "Pablo@example.com",
       "password": "Pabloo123",
       "isactive": true,
+      "tipoUsuario": "estudiante",
       "asignaturas": [
         {
           "nombre": "Matemáticas",
@@ -14,18 +15,12 @@
       ]
     },
     {
-      "id": 2,
+      "id": "2",
       "username": "Pablox",
-      "email": "Pablo123@gmai",
-      "password": "pablo123",
-      "isactive": true
-    },
-    {
-      "id": 3,
-      "username": "Pblox",
-      "email": "pablo@gmail.com",
-      "password": "Pablo123",
+      "email": "dron.222@gmail.com",
+      "password": "pablodrop14",
       "isactive": true,
+      "tipoUsuario": "estudiante",
       "asignaturas": [
         {
           "nombre": "Programación",
@@ -34,43 +29,74 @@
       ]
     },
     {
-      "id": 4,
-      "username": "Pablos",
-      "email": "pablo32@gmail.com",
-      "password": "pablo123",
+      "id": "3",
+      "username": "holap",
+      "email": "hola1324@gmail.com",
+      "password": "hola123",
       "isactive": true,
+      "tipoUsuario": "docente",
       "asignaturas": [
         {
-          "nombre": "Matemáticas",
-          "profesor": "Prof. Gómez"
+          "nombre": "Historia",
+          "profesor": "Prof. Ruiz"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "username": "holapn",
+      "email": "hola13j24@gmail.com",
+      "password": "hola123",
+      "isactive": true,
+      "tipoUsuario": "docente",
+      "asignaturas": [
+        {
+          "nombre": "Historia",
+          "profesor": "Prof. Ruiz"
         }
       ]
     }
   ],
   "justificaciones": [
     {
-      "id": 1,
+      "id": "1",
+      "usuarioId": 1,
       "imagen": "base64stringDeLaImagen",
-      "asignatura": "Programación",
-      "fecha": "2024-11-21",
-      "descripcion": "jj",
-      "profesor": "Prof. Pérez"
+      "asignatura": "Matemáticas",
+      "fecha": "2024-11-08",
+      "descripcion": "jb hvhvh",
+      "profesor": "Prof. Gómez",
+      "comentarioDocente": ""
     },
     {
-      "id": 2,
+      "id": "2",
+      "usuarioId": 1,
       "imagen": "base64stringDeLaImagen",
-      "asignatura": "Programación",
-      "fecha": "2024-11-09",
-      "descripcion": "n",
-      "profesor": "Prof. Pérez"
+      "asignatura": "Matemáticas",
+      "fecha": "2024-11-01",
+      "descripcion": "kmkm",
+      "profesor": "Prof. Gómez",
+      "comentarioDocente": ""
+    }
+  ],
+  "qrcodes": [
+    {
+      "id": "1",
+      "docenteId": 3,
+      "qrCode": "Información del QR capturado",
+      "timestamp": "2024-11-26T10:00:00Z"
     },
     {
-      "id": 3,
-      "imagen": "base64stringDeLaImagen",
-      "asignatura": "Programación",
-      "fecha": "2024-11-12",
-      "descripcion": "jjm",
-      "profesor": "Prof. Pérez"
+      "id": "2",
+      "qrCode": "Asignatura: Matemáticas, Fecha: 2024-11-09, Profesor: Prof. Gómez, RUT: 12345678, Email: correo@ejemplo.com",
+      "timestamp": "2024-11-26T13:11:41.729Z",
+      "user": "holap"
+    },
+    {
+      "id": "3",
+      "qrCode": "Asignatura: Matemáticas, Fecha: 2024-11-09, Profesor: Prof. Gómez, RUT: 12345678, Email: correo@ejemplo.com",
+      "timestamp": "2024-11-26T13:12:07.131Z",
+      "user": "holap"
     }
   ]
 }
