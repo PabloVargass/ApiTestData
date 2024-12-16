@@ -6,6 +6,7 @@
       "username": "Pablo",
       "email": "Pablo@example.com",
       "password": "Pabloo123",
+      "keyword": "clavePablo", 
       "isactive": true,
       "tipoUsuario": "estudiante",
       "asignaturas": [
@@ -18,7 +19,10 @@
       "username": "Pablox",
       "email": "Pablo123@gmail.com",
       "password": "pablo123",
-      "isactive": true
+      "keyword": "clavePablox", 
+      "isactive": true,
+      "tipoUsuario": "estudiante",
+      "asignaturas": []
     },
     {
       "id": 3,
@@ -26,6 +30,7 @@
       "username": "Pblox",
       "email": "dron.222@gmail.com",
       "password": "pablodrop14",
+      "keyword": "clavePblox", 
       "isactive": true,
       "tipoUsuario": "estudiante",
       "asignaturas": [
@@ -38,6 +43,7 @@
       "username": "holap",
       "email": "hola1324@gmail.com",
       "password": "hola123",
+      "keyword": "claveHolap", 
       "isactive": true,
       "tipoUsuario": "docente",
       "asignaturas": [
