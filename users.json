@@ -6,7 +6,7 @@
       "username": "Pablo",
       "email": "Pablo@example.com",
       "password": "Pabloo123",
-      "keyword": "clavePablo", 
+      "keyword": "clavePablo",
       "isactive": true,
       "tipoUsuario": "estudiante",
       "asignaturas": [
@@ -19,7 +19,7 @@
       "username": "Pablox",
       "email": "Pablo123@gmail.com",
       "password": "pablo123",
-      "keyword": "clavePablox", 
+      "keyword": "clavePablox",
       "isactive": true,
       "tipoUsuario": "estudiante",
       "asignaturas": []
@@ -30,7 +30,7 @@
       "username": "Pblox",
       "email": "dron.222@gmail.com",
       "password": "pablodrop14",
-      "keyword": "clavePblox", 
+      "keyword": "clavePblox",
       "isactive": true,
       "tipoUsuario": "estudiante",
       "asignaturas": [
@@ -43,7 +43,7 @@
       "username": "holap",
       "email": "hola1324@gmail.com",
       "password": "hola123",
-      "keyword": "claveHolap", 
+      "keyword": "claveHolap",
       "isactive": true,
       "tipoUsuario": "docente",
       "asignaturas": [
@@ -76,15 +76,19 @@
   "qrcodes": [
     {
       "id": 1,
-      "docenteId": 3,
+      "docenteId": 4,
       "qrCode": "Asignatura: Matemáticas, Fecha: 2024-11-09, Profesor: Prof. Gómez, RUT: 12345678, Email: correo@ejemplo.com",
       "timestamp": "2024-11-26T10:00:00Z"
-    },
+    }
+  ],
+  "asistencias": [
     {
-      "id": 2,
-      "qrCode": "Asignatura: Matemáticas, Fecha: 2024-11-09, Profesor: Prof. Gómez, RUT: 12345678, Email: correo@ejemplo.com",
-      "timestamp": "2024-11-26T13:11:41.729Z",
-      "user": "holap"
+      "id": 1,
+      "alumnoId": 1,
+      "asignatura": "Matemáticas",
+      "fecha": "2024-11-27",
+      "profesor": "Prof. Gómez",
+      "estado": "Registrado"
     }
   ]
 }
